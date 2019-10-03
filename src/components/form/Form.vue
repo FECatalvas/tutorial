@@ -72,6 +72,7 @@ export default {
   border-radius: 4px;
   box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
   text-align: center;
+  margin-top: 190px;
 }
 /* #login {length: 20px; } */
 
