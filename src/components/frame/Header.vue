@@ -27,7 +27,7 @@
   height: 50px;
 }
 
-#top[data-v-7b8bc957]{
+#top{
   margin-top: 190px;
 }
 </style>

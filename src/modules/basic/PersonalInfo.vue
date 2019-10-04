@@ -32,7 +32,7 @@ b-card-text {
 }
 .mt-3 {
   margin: 30%;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: 5px 10px 18px #888888
   //   background-color: $bckg_color !important;
 }
 

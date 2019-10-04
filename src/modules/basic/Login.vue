@@ -4,6 +4,8 @@
       <b-row id="row">
         <b-col></b-col>
         <b-col id="top" cols="8">
+          <b-card class= "text-xl font-weight-bold" title = "SIGN IN">
+        
           <b-form @submit="onSubmit">
              <b-form-group id="emailAdd" description="We'll never share your email with anyone else.">
             <b-form-input
@@ -21,6 +23,7 @@
 
             <b-button id="login"  type="submit" block variant="primary">Log in</b-button>
           </b-form>
+          </b-card>
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -70,13 +73,17 @@ export default {
 
 <style scoped lang="scss">
 @import "~assets/colors.scss";
+
 #top {
-  background-color: $bckg_color !important;
-  padding: 3vw 4vw 5vw;
+background-color: $bckg_color !important;
+	padding: 3vw 4vw 5vw;
   border-radius: 4px;
   box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
   text-align: center;
   margin-top: 190px;
+  background-image:url('https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .input-group{
