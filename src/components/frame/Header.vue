@@ -27,9 +27,6 @@
   height: 50px;
 }
 
-#top{
-  margin-top: 190px;
-}
 </style>
 
 <script>

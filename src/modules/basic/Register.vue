@@ -73,7 +73,7 @@ export default {
   background-image:url('https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
   background-repeat:no-repeat;
   background-size:cover;
-  padding:250px;
+  padding:110px;
 }
 #top{
   background-color: $bckg_color !important;
