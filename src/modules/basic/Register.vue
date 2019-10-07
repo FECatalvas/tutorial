@@ -8,7 +8,7 @@
         <b-col id="top" cols = "8" >
 
         <b-form @submit="onSubmit"> 
-        <h4 class="text-lg font-weight-bold">SIGN UP</h4>
+        <h4 class="text-lg font-weight-bold" style="color:#E3CD81FF">SIGN UP</h4>
           <b-form-group id="input-group-0"  label-for="input-0" >
             <b-form-input id="input-0" v-model="form.username" type="text" required placeholder="Username"></b-form-input>
           </b-form-group>
@@ -25,7 +25,7 @@
             <b-form-input id="input-3" v-model="form.confirmPassword" required placeholder="Confirm Password" type="password"></b-form-input>
           </b-form-group>
 
-          <b-button id="login" type="submit" block variant="primary">Sign Up</b-button><br>
+          <b-button id="sign-up" type="submit" block variant="primary">Sign Up</b-button><br>
         </b-form>
 
         </b-col>
@@ -70,28 +70,27 @@ export default {
 <style scoped lang="scss">
 @import "~assets/colors.scss";
 #body{
-  background-image:url('https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-image:url('https://cdn.pixabay.com/photo/2017/03/31/10/56/waffles-2190961_960_720.jpg');
   background-repeat:no-repeat;
   background-size:cover;
-  padding:200px;
-  height: 913px;
+  padding:160px;
+  height:913px;
 }
-#top{
-  background-color: $bckg_color !important;
-	padding: 3vw 4vw 5vw;
+#top {
+  background-color: rgba(177, 179, 179,0.4) !important;
+  padding: 3vw 4vw 5vw;
   border-radius: 4px;
   box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
   text-align: center;
-
-  }
-
-.card-body{
-  background-color:rgba(247, 247, 247,0.3)
-
+  margin-top: 125px;
 }
-/* #login {length: 20px; } */
-
 .btn-block{
-  margin-top:30px;
+  margin-top:33px;
+  background-color: #B1B3B3FF;
+  border-color: #B1B3B3FF;
+}
+
+#sign-up{
+  margin-bottom:0px;
 }
 </style>

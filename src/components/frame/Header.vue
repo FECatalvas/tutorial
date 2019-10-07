@@ -1,6 +1,6 @@
 <template>
   <div id="Header">
-    <b-navbar fixed="top" toggleable="lg" type="dark" variant="info">
+    <b-navbar fixed="top" toggleable="lg" type="dark" style="background-color:rgba(177, 179, 179,0.8)">
       <img id="logo" src="/logo.png">
       <b-navbar-brand class="text-xl font-weight-bold" href="#" id="title">Ms.SweetBakes</b-navbar-brand>
 
@@ -18,13 +18,17 @@
 <style scoped lang="scss">
 @import "~assets/colors.scss";
 #title {
-  color: $primary !important;
+  color: #E3CD81FF !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-left: 10px;
 }
 #logo {
-  height: 50px;
+  height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #E3CD81FF !important;
 }
 
 </style>
